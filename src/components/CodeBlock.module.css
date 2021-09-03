@@ -1,0 +1,30 @@
+.code {
+  margin: 1rem 1rem 1rem 1rem;
+  position: absolute;
+  width: 50%;
+  animation: Slide_In 1s ease;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.hide{
+  animation: Slide_Out 1s ease;
+  display: none;
+}
+
+@keyframes Slide_In {
+  0% {
+    transform: translateY(-250px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes Slide_Out {
+  0% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(-250px);
+    display: none;
+  }
+}
