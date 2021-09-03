@@ -21,7 +21,7 @@ const InputCard = (props) => {
 
   return (
     <div className={`${props.showGradient && classes.hide} ${classes.card}`}>
-      <h1>CSS GRADIENT GENERATOR</h1>
+      <h1>CSS GRADIENT <br/> GENERATOR</h1>
       <div>
         <input
           type="color"
