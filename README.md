@@ -1,3 +1,4 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/8d170561-cd00-47c8-946c-5ad5b631b4cc/deploy-status)](https://app.netlify.com/sites/hopeful-edison-bfcf22/deploys)
 # CSS Gradient Generator
 A simple react app to create CSS gradients and copy the code.
 
