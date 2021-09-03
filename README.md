@@ -1,8 +1,6 @@
 # CSS Gradient Generator
 A simple react app to create CSS gradients and copy the code.
 
-===
-
 ## Run it yourself
 In the project directory, you can run:
 
