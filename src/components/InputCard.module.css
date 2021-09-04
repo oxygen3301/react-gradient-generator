@@ -5,7 +5,6 @@
   border-radius: 15px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   padding-bottom: 2rem;
-  animation: FadeIn ease 1s;
 }
 .card h1 {
   padding: 1rem 4rem 0rem 4rem; /*top right bottom left*/
@@ -60,7 +59,7 @@ svg {
 }
 
 .hide {
-  animation: FadeOut 1s forwards;
+  display: none;
 }
 
 .angle_label {
@@ -114,28 +113,5 @@ svg {
   }
   .labels {
     padding-bottom: 1.5rem;
-  }
-}
-
-@keyframes FadeIn {
-  0% {
-    transform: translateY(-75px);
-    opacity: 0%;
-  }
-  100% {
-    transform: translateY(0);
-    opacity: 100%;
-  }
-}
-
-@keyframes FadeOut {
-  0% {
-    transform: translateY(0);
-    opacity: 100%;
-  }
-  100% {
-    transform: translateY(-75px);
-    opacity: 0%;
-    display:none;
   }
 }
