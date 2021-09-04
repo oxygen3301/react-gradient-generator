@@ -7,8 +7,7 @@
     monospace;
 }
 .hide{
-  animation: Slide_Out 1s ease;
-  display: none;
+  display:none;
 }
 
 @keyframes Slide_In {
@@ -19,7 +18,7 @@
     transform: translateY(0);
   }
 }
-@keyframes Slide_Out {
+/* @keyframes Slide_Out {
   0% {
     transform: translateY(0px);
   }
@@ -27,7 +26,7 @@
     transform: translateY(-250px);
     display: none;
   }
-}
+} */
 @media only screen and (max-width: 768px) {
   .code{
     width: 90vw;
